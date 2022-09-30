@@ -4,7 +4,6 @@
     margin: 0;
 }
 
-
 body {
     background-color: #d9dcd6;
 }
@@ -16,6 +15,7 @@ body {
     color: #ffffff;
 }
 
+/* Sets the design and look of company name. */
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -25,6 +25,7 @@ body {
     color: #d9dcd6;
 }
 
+/* Sets parameters for tabs on header. */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -41,13 +42,13 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* Spreads out tabs horizontaly. */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-
+/* Main image for top of website. */
 .hero {
     height: 800px;
     width: 100%;
@@ -56,7 +57,7 @@ a {
     background-size: cover;
     background-position: center;
 }
-
+/*Styling for the main content on the page*/
 .content {
     width: 75%;
     display: inline-block;
@@ -80,7 +81,7 @@ a {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Used for making the pictures move to left of text. */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -109,7 +110,7 @@ p {
     font-size: 36px;
 }
 
-
+/* Used for making the pictures move to right of text. */
 .float-right {
     float: right;
     margin-left: 25px;
